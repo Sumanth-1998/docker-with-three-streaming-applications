@@ -1,0 +1,32 @@
+{
+  "name": "TempDto",
+  "namespace": "avro",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "planName",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "productName",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "quantity",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}

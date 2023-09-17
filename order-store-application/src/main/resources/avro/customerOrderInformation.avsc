@@ -1,0 +1,78 @@
+{
+  "type": "record",
+  "name": "CustomerOrderInfo",
+  "namespace": "avro",
+  "fields": [
+    {
+      "name": "name",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "email",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "phone",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "ssn",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "orderList",
+      "type": [
+        "null",
+        {
+          "type": "array",
+          "items": {
+            "name": "Order",
+            "type": "record",
+            "fields": [
+              {
+                "name": "id",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              {
+                "name": "ssn",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              {
+                "name": "orderDate",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              {
+                "name": "orderValue",
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

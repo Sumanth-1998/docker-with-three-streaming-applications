@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "CustomerInfo",
+  "namespace": "avro",
+  "fields": [
+    {
+      "name": "name",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "email",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "phone",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "ssn",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "PlanProductRel",
+  "namespace": "avro",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "planId",
+      "type": "string"
+    },
+    {
+      "name": "productId",
+      "type": "string"
+    }
+  ]
+}
